@@ -1,0 +1,353 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.ServiceInterface\\OnionArchitecture.ServiceInterface.csproj": {}
+  },
+  "projects": {
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj",
+        "projectName": "OnionArchitecture.Models",
+        "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\APPS\\VS\\data\\Component tools SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\OnionArchitecture.RepositoryInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\OnionArchitecture.RepositoryInterface.csproj",
+        "projectName": "OnionArchitecture.RepositoryInterface",
+        "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\OnionArchitecture.RepositoryInterface.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\APPS\\VS\\data\\Component tools SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj"
+              },
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\OnionArchitecture.Repository.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\OnionArchitecture.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\OnionArchitecture.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\OnionArchitecture.Repository.csproj",
+        "projectName": "OnionArchitecture.Repository",
+        "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\OnionArchitecture.Repository.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\APPS\\VS\\data\\Component tools SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.ServiceInterface\\OnionArchitecture.ServiceInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.ServiceInterface\\OnionArchitecture.ServiceInterface.csproj",
+        "projectName": "OnionArchitecture.ServiceInterface",
+        "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.ServiceInterface\\OnionArchitecture.ServiceInterface.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.ServiceInterface\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\APPS\\VS\\data\\Component tools SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj"
+              },
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\OnionArchitecture.Service.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\OnionArchitecture.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\OnionArchitecture.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\OnionArchitecture.Service.csproj",
+        "projectName": "OnionArchitecture.Service",
+        "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\OnionArchitecture.Service.csproj",
+        "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+        "outputPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\APPS\\VS\\data\\Component tools SDKs\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.Models\\OnionArchitecture.Models.csproj"
+              },
+              "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\OnionArchitecture.RepositoryInterface.csproj": {
+                "projectPath": "D:\\smartdata\\OnionArchitecture\\OnionArchitecture.RepositoryInterface\\OnionArchitecture.RepositoryInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
